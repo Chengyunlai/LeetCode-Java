@@ -19,7 +19,7 @@ public class Answer2 {
 
 }
 
-class Solution {
+class Solution2 {
     public int lengthOfLongestSubstring(String s) {
         int maxSubLength = 0;
         int length = s.length();

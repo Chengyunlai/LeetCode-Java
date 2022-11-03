@@ -18,7 +18,7 @@ public class Answer {
     }
 }
 
-class Solution1 {
+class Solution {
     public int lengthOfLongestSubstring(String s) {
         // 记录输出的长度
         int maxSubLength = 0;
