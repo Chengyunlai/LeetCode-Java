@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f3bda99-d74c-4e09-b4bd-8219107b44cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LongestPalindromicSubstring/Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LongestPalindromicSubstring/Answer2.java" afterDir="false" />
+    <list default="true" id="4f3bda99-d74c-4e09-b4bd-8219107b44cc" name="Default Changelist" comment="最长回文子串">
+      <change afterPath="$PROJECT_DIR$/src/ReverseInteger/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReverseInteger/Answer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZigZagConversion/Answer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LongestSubstringWithoutRepeatingCharacters/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestSubstringWithoutRepeatingCharacters/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LongestSubstringWithoutRepeatingCharacters/Answer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestSubstringWithoutRepeatingCharacters/Answer2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +35,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ReverseInteger" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Answer2 (1)">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\12579\Desktop\LeetCode\src\ReverseInteger" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Answer2 (2)">
     <configuration name="Answer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LongestPalindromicSubstring.Answer" />
       <module name="LeetCode" />
@@ -53,12 +57,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Answer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LongestSubstringWithoutRepeatingCharacters.Answer" />
+    <configuration name="Answer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ZigZagConversion.Answer" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LongestSubstringWithoutRepeatingCharacters.*" />
+          <option name="PATTERN" value="ZigZagConversion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Answer (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseInteger.Answer" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ReverseInteger.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Answer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LongestSubstringWithoutRepeatingCharacters.Answer2" />
+    <configuration name="Answer2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseInteger.Answer2" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LongestSubstringWithoutRepeatingCharacters.*" />
+          <option name="PATTERN" value="ReverseInteger.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,23 +109,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Answer2 (2)" />
+        <item itemvalue="Application.Answer (3)" />
+        <item itemvalue="Application.Answer (2)" />
         <item itemvalue="Application.Answer2 (1)" />
         <item itemvalue="Application.Answer (1)" />
-        <item itemvalue="Application.Answer2" />
-        <item itemvalue="Application.Answer" />
       </list>
     </recent_temporary>
   </component>
@@ -122,8 +129,19 @@
       <updated>1667375687369</updated>
       <workItem from="1667375688762" duration="5158000" />
       <workItem from="1667387130925" duration="1315000" />
-      <workItem from="1667485448905" duration="3856000" />
+      <workItem from="1667485448905" duration="4220000" />
+      <workItem from="1667654730086" duration="2147000" />
+      <workItem from="1667696925845" duration="807000" />
+      <workItem from="1667713846033" duration="5423000" />
     </task>
+    <task id="LOCAL-00001" summary="最长回文子串">
+      <created>1667490430491</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667490430491</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,5 +158,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="最长回文子串" />
+    <option name="LAST_COMMIT_MESSAGE" value="最长回文子串" />
   </component>
 </project>
