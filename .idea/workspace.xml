@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f3bda99-d74c-4e09-b4bd-8219107b44cc" name="Default Changelist" comment="最长公共前缀">
-      <change afterPath="$PROJECT_DIR$/src/threeSum/Answer.java" afterDir="false" />
+    <list default="true" id="4f3bda99-d74c-4e09-b4bd-8219107b44cc" name="Default Changelist" comment="三个数之和为0">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApproachThreeSum/Answer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,14 +35,30 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ReverseInteger" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.37361532" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\12579\Desktop\LeetCode\src\ReverseInteger" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Answer">
+  <component name="RunManager" selected="Application.Answer (1)">
+    <configuration name="Answer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ApproachThreeSum.Answer" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ApproachThreeSum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Answer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IntegertoRoman.Answer" />
       <module name="LeetCode" />
@@ -94,26 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Answer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ContainerWithMostWater.Answer2" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ContainerWithMostWater.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Answer (1)" />
         <item itemvalue="Application.Answer" />
         <item itemvalue="Application.Answer (4)" />
         <item itemvalue="Application.Answer (3)" />
         <item itemvalue="Application.Answer (2)" />
-        <item itemvalue="Application.Answer2" />
       </list>
     </recent_temporary>
   </component>
@@ -146,6 +150,11 @@
       <workItem from="1668127628619" duration="5226000" />
       <workItem from="1668134488008" duration="35000" />
       <workItem from="1668213301376" duration="2528000" />
+      <workItem from="1668250298077" duration="651000" />
+      <workItem from="1668354150034" duration="840000" />
+      <workItem from="1668387416107" duration="1846000" />
+      <workItem from="1668389336227" duration="2081000" />
+      <workItem from="1668391799439" duration="70000" />
     </task>
     <task id="LOCAL-00001" summary="最长回文子串">
       <created>1667490430491</created>
@@ -196,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668133844819</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="三个数之和为0">
+      <created>1668250316767</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668250316767</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +238,11 @@
     <MESSAGE value="IntegertoRoman" />
     <MESSAGE value="罗马数转整数" />
     <MESSAGE value="最长公共前缀" />
-    <option name="LAST_COMMIT_MESSAGE" value="最长公共前缀" />
+    <MESSAGE value="三个数之和为0" />
+    <option name="LAST_COMMIT_MESSAGE" value="三个数之和为0" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
