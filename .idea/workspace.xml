@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f3bda99-d74c-4e09-b4bd-8219107b44cc" name="Default Changelist" comment="二分查找">
-      <change afterPath="$PROJECT_DIR$/src/SearchForInsertionLocation/Answer.java" afterDir="false" />
+    <list default="true" id="4f3bda99-d74c-4e09-b4bd-8219107b44cc" name="Default Changelist" comment="搜索插入位置">
+      <change afterPath="$PROJECT_DIR$/src/RemovingAnElement/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TheSquareOfTheArray/Answer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +45,7 @@
       <recent name="C:\Users\12579\Desktop\LeetCode\src\ReverseInteger" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Answer (2)">
+  <component name="RunManager" selected="Application.Answer (4)">
     <configuration name="Answer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ApproachThreeSum.Answer" />
       <module name="LeetCode" />
@@ -71,12 +72,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Answer (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LongestCommonPrefix.Answer" />
+    <configuration name="Answer (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RemovingAnElement.Answer" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LongestCommonPrefix.*" />
+          <option name="PATTERN" value="RemovingAnElement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Answer (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TheSquareOfTheArray.Answer" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TheSquareOfTheArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,39 +111,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Answer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threeSum.Answer" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="threeSum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Answer (4)" />
+        <item itemvalue="Application.Answer (3)" />
         <item itemvalue="Application.Answer (2)" />
         <item itemvalue="Application.Answer (5)" />
         <item itemvalue="Application.Answer (1)" />
-        <item itemvalue="Application.Answer" />
-        <item itemvalue="Application.Answer (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +168,9 @@
       <workItem from="1668391799439" duration="214000" />
       <workItem from="1668392037119" duration="7000" />
       <workItem from="1668492386096" duration="5342000" />
-      <workItem from="1668561640179" duration="4450000" />
+      <workItem from="1668561640179" duration="5523000" />
+      <workItem from="1668579140850" duration="1000" />
+      <workItem from="1668579164352" duration="4291000" />
     </task>
     <task id="LOCAL-00001" summary="最长回文子串">
       <created>1667490430491</created>
@@ -241,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668501641516</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="搜索插入位置">
+      <created>1668576619284</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668576619284</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +278,19 @@
     <MESSAGE value="三个数之和为0" />
     <MESSAGE value="三数之和最接近目标值" />
     <MESSAGE value="二分查找" />
-    <option name="LAST_COMMIT_MESSAGE" value="二分查找" />
+    <MESSAGE value="搜索插入位置" />
+    <option name="LAST_COMMIT_MESSAGE" value="搜索插入位置" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RemovingAnElement/Answer.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
