@@ -10,7 +10,7 @@ package TheSmallestSubarrayOfLength;
 public class Answer {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int i = solution.minSubArrayLen(11, new int[]{1,2,3,4,5});
+        int i = solution.minSubArrayLen(6, new int[]{1,2,3,2,4});
         System.out.println(i);
     }
 }

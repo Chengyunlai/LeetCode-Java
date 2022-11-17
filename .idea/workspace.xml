@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f3bda99-d74c-4e09-b4bd-8219107b44cc" name="Default Changelist" comment="移除元素和有序数组的平方">
-      <change afterPath="$PROJECT_DIR$/src/TheSmallestSubarrayOfLength/Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TheSmallestSubarrayOfLength/Answer2.java" afterDir="false" />
+    <list default="true" id="4f3bda99-d74c-4e09-b4bd-8219107b44cc" name="Default Changelist" comment="长度最小的子数组">
+      <change afterPath="$PROJECT_DIR$/src/HelixMatrix/Answer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TheSmallestSubarrayOfLength/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TheSmallestSubarrayOfLength/Answer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +45,13 @@
       <recent name="C:\Users\12579\Desktop\LeetCode\src\ReverseInteger" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Answer2">
-    <configuration name="Answer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SearchForInsertionLocation.Answer" />
+  <component name="RunManager" selected="Application.Answer (1)">
+    <configuration name="Answer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HelixMatrix.Answer" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SearchForInsertionLocation.*" />
+          <option name="PATTERN" value="HelixMatrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Answer2" />
+        <item itemvalue="Application.Answer (1)" />
         <item itemvalue="Application.Answer" />
+        <item itemvalue="Application.Answer2" />
         <item itemvalue="Application.Answer (4)" />
         <item itemvalue="Application.Answer (3)" />
-        <item itemvalue="Application.Answer (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +173,7 @@
       <workItem from="1668561640179" duration="5523000" />
       <workItem from="1668579140850" duration="1000" />
       <workItem from="1668579164352" duration="10447000" />
-      <workItem from="1668671914094" duration="878000" />
+      <workItem from="1668671914094" duration="5369000" />
     </task>
     <task id="LOCAL-00001" summary="最长回文子串">
       <created>1667490430491</created>
@@ -259,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668588127617</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="长度最小的子数组">
+      <created>1668672857280</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668672857280</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +297,8 @@
     <MESSAGE value="二分查找" />
     <MESSAGE value="搜索插入位置" />
     <MESSAGE value="移除元素和有序数组的平方" />
-    <option name="LAST_COMMIT_MESSAGE" value="移除元素和有序数组的平方" />
+    <MESSAGE value="长度最小的子数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="长度最小的子数组" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
