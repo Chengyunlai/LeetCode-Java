@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f3bda99-d74c-4e09-b4bd-8219107b44cc" name="Default Changelist" comment="长度最小的子数组">
-      <change afterPath="$PROJECT_DIR$/src/HelixMatrix/Answer.java" afterDir="false" />
+    <list default="true" id="4f3bda99-d74c-4e09-b4bd-8219107b44cc" name="Default Changelist" comment="螺旋矩阵">
+      <change afterPath="$PROJECT_DIR$/src/RemoveLinkedListElements/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RemoveLinkedListElements/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheSmallestSubarrayOfLength/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TheSmallestSubarrayOfLength/Answer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
       <recent name="C:\Users\12579\Desktop\LeetCode\src\ReverseInteger" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Answer (1)">
+  <component name="RunManager" selected="Application.Answer (2)">
     <configuration name="Answer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HelixMatrix.Answer" />
       <module name="LeetCode" />
@@ -59,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Answer (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RemovingAnElement.Answer" />
+    <configuration name="Answer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RemoveLinkedListElements.Answer" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RemovingAnElement.*" />
+          <option name="PATTERN" value="RemoveLinkedListElements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,26 +111,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Answer (2)" />
         <item itemvalue="Application.Answer (1)" />
         <item itemvalue="Application.Answer" />
         <item itemvalue="Application.Answer2" />
         <item itemvalue="Application.Answer (4)" />
-        <item itemvalue="Application.Answer (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +171,8 @@
       <workItem from="1668561640179" duration="5523000" />
       <workItem from="1668579140850" duration="1000" />
       <workItem from="1668579164352" duration="10447000" />
-      <workItem from="1668671914094" duration="5369000" />
+      <workItem from="1668671914094" duration="6429000" />
+      <workItem from="1668737050198" duration="6968000" />
     </task>
     <task id="LOCAL-00001" summary="最长回文子串">
       <created>1667490430491</created>
@@ -266,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668672857280</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="螺旋矩阵">
+      <created>1668685321047</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1668685321047</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +304,8 @@
     <MESSAGE value="搜索插入位置" />
     <MESSAGE value="移除元素和有序数组的平方" />
     <MESSAGE value="长度最小的子数组" />
-    <option name="LAST_COMMIT_MESSAGE" value="长度最小的子数组" />
+    <MESSAGE value="螺旋矩阵" />
+    <option name="LAST_COMMIT_MESSAGE" value="螺旋矩阵" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -307,6 +314,11 @@
           <url>file://$PROJECT_DIR$/src/RemovingAnElement/Answer.java</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RemoveLinkedListElements/Answer.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
