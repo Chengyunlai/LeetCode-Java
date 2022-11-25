@@ -46,12 +46,17 @@ class Solution {
         ListNode next = curr.next;
 
         while (curr!=null){
+            // 画第一笔
             curr.next = pre;
             if (next == null || next.next == null){
+                // 画第二笔
                 pre.next = next;
                 break;
             }else {
+                // 画第二笔
                 pre.next = next.next;
+
+                // 更新
                 curr = next.next;
                 pre = next;
                 next = curr.next;
