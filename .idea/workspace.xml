@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f3bda99-d74c-4e09-b4bd-8219107b44cc" name="Default Changelist" comment="删除链表中某个值">
-      <change afterPath="$PROJECT_DIR$/src/IntersectionOfTwoLinkedListsLcci/Answer.java" afterDir="false" />
+    <list default="true" id="4f3bda99-d74c-4e09-b4bd-8219107b44cc" name="Default Changelist" comment="链表相交">
+      <change afterPath="$PROJECT_DIR$/src/LinkedListCycleii/Answer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +52,7 @@
       <recent name="C:\Users\12579\Desktop\LeetCode\src\ReverseInteger" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Answer (1)">
+  <component name="RunManager" selected="Application.Answer (2)">
     <configuration name="Answer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IntersectionOfTwoLinkedListsLcci.Answer" />
       <module name="LeetCode" />
@@ -66,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Answer (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseLinkedList.Answer" />
+    <configuration name="Answer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedListCycleii.Answer" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ReverseLinkedList.*" />
+          <option name="PATTERN" value="LinkedListCycleii.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,26 +118,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Answer (2)" />
         <item itemvalue="Application.Answer (1)" />
         <item itemvalue="Application.Answer" />
         <item itemvalue="Application.Answer (4)" />
         <item itemvalue="Application.Answer2 (1)" />
-        <item itemvalue="Application.Answer (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +186,8 @@
       <workItem from="1669358213679" duration="7083000" />
       <workItem from="1669426711919" duration="284000" />
       <workItem from="1669427220487" duration="6556000" />
-      <workItem from="1669515911752" duration="4711000" />
+      <workItem from="1669515911752" duration="4752000" />
+      <workItem from="1669600359652" duration="1750000" />
     </task>
     <task id="LOCAL-00001" summary="最长回文子串">
       <created>1667490430491</created>
@@ -316,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669430897063</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="链表相交">
+      <created>1669527823608</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1669527823608</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +358,8 @@
     <MESSAGE value="移除链表元素" />
     <MESSAGE value="反转链表，以及反转相邻的链表" />
     <MESSAGE value="删除链表中某个值" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除链表中某个值" />
+    <MESSAGE value="链表相交" />
+    <option name="LAST_COMMIT_MESSAGE" value="链表相交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -366,11 +373,6 @@
           <url>file://$PROJECT_DIR$/src/RemoveLinkedListElements/Answer.java</url>
           <line>25</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/IntersectionOfTwoLinkedListsLcci/Answer.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
