@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f3bda99-d74c-4e09-b4bd-8219107b44cc" name="Default Changelist" comment="两数相加">
-      <change afterPath="$PROJECT_DIR$/src/Problems4sumii/Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TheSmallestSubarrayOfLength209/Answer3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleNumber/Answer.java" afterDir="false" />
+    <list default="true" id="4f3bda99-d74c-4e09-b4bd-8219107b44cc" name="Default Changelist" comment="一些修改">
+      <change afterPath="$PROJECT_DIR$/src/majorityElement/Answer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch704/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RemoveLinkedListElements/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RemoveLinkedListElements203/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RemoveLinkedListElements/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RemoveLinkedListElements203/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RemovingAnElement/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RemovingAnElement27/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheSmallestSubarrayOfLength/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TheSmallestSubarrayOfLength209/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheSmallestSubarrayOfLength/Answer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TheSmallestSubarrayOfLength209/Answer2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheSquareOfTheArray/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TheSquareOfTheArray977/Answer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +56,7 @@
       <recent name="C:\Users\12579\Desktop\LeetCode\src\ReverseInteger" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Answer">
+  <component name="RunManager" selected="Application.majorityElement.Answer">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -131,25 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Answer3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TheSmallestSubarrayOfLength209.Answer3" />
+    <configuration name="majorityElement.Answer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="majorityElement.Answer" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TheSmallestSubarrayOfLength209.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TheSmallestSubarrayOfLength209.Answer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TheSmallestSubarrayOfLength209.Answer" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TheSmallestSubarrayOfLength209.*" />
+          <option name="PATTERN" value="majorityElement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.majorityElement.Answer" />
         <item itemvalue="Application.Answer" />
         <item itemvalue="Application.Answer (2)" />
         <item itemvalue="Application.Answer (1)" />
         <item itemvalue="Application.Answer3 (1)" />
-        <item itemvalue="Application.Answer3" />
       </list>
     </recent_temporary>
   </component>
@@ -227,6 +205,7 @@
       <workItem from="1675165966948" duration="3214000" />
       <workItem from="1675252791210" duration="5167000" />
       <workItem from="1676955155501" duration="3901000" />
+      <workItem from="1676977830233" duration="1752000" />
     </task>
     <task id="LOCAL-00001" summary="最长回文子串">
       <created>1667490430491</created>
@@ -389,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670071358373</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="一些修改">
+      <created>1676977869914</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1676977869914</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +415,8 @@
     <MESSAGE value="有效的字母异位词(对乱序可以先尝试排序)" />
     <MESSAGE value="快乐树和两个数组的交集" />
     <MESSAGE value="两数相加" />
-    <option name="LAST_COMMIT_MESSAGE" value="两数相加" />
+    <MESSAGE value="一些修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="一些修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -443,6 +430,11 @@
           <url>file://$PROJECT_DIR$/src/singleNumber/Answer.java</url>
           <line>20</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/majorityElement/Answer.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
