@@ -1,6 +1,4 @@
-package TheSquareOfTheArray;
-
-import java.util.Arrays;
+package TheSquareOfTheArray977;
 
 /**
  * @ClassName

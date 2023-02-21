@@ -1,8 +1,8 @@
-package RemovingAnElement;
+package RemovingAnElement27;
 
 /**
  * @ClassName
- * @Description
+ * @Description 使用快慢指针去遍历数组，删除目标值
  * @Author:chengyunlai
  * @Date
  * @Version 1.0

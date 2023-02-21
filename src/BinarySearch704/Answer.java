@@ -1,4 +1,4 @@
-package BinarySearch;
+package BinarySearch704;
 
 /**
  * @ClassName
@@ -23,7 +23,7 @@ class Solution {
         // 尾指针
         int right = nums.length-1;
         while (left <= right){
-            // 中间值
+            // 中间值，计算是通过长度
             int mid = left + (right - left) / 2;
             if (target == nums[mid]){
                 return mid;
