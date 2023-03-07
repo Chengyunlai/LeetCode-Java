@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f3bda99-d74c-4e09-b4bd-8219107b44cc" name="Default Changelist" comment="数组中出现次数大于n/2的数">
-      <change afterPath="$PROJECT_DIR$/src/designLinkedList/Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/moveZeroes/Answer.java" afterDir="false" />
+    <list default="true" id="4f3bda99-d74c-4e09-b4bd-8219107b44cc" name="Default Changelist" comment="移除0">
+      <change afterPath="$PROJECT_DIR$/src/binaryTreeInorderTraversal/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/findAllNumbersDisappearedInAnArray/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maximumDepthOfBinaryTree/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/validParentheses/Answer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +59,7 @@
       <recent name="C:\Users\12579\Desktop\LeetCode\src\ReverseInteger" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.moveZeroes.Answer">
+  <component name="RunManager" selected="Application.maximumDepthOfBinaryTree.Answer">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -71,25 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Answer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleNumber.Answer" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="singleNumber.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Answer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleNumber.Answer" />
+      <option name="MAIN_CLASS_NAME" value="binaryTreeInorderTraversal.Answer" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singleNumber.*" />
+          <option name="PATTERN" value="binaryTreeInorderTraversal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="designLinkedList.Answer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designLinkedList.Answer" />
+    <configuration name="findAllNumbersDisappearedInAnArray.Answer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="findAllNumbersDisappearedInAnArray.Answer" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designLinkedList.*" />
+          <option name="PATTERN" value="findAllNumbersDisappearedInAnArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="majorityElement.Answer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="majorityElement.Answer" />
+    <configuration name="maximumDepthOfBinaryTree.Answer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maximumDepthOfBinaryTree.Answer" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="majorityElement.*" />
+          <option name="PATTERN" value="maximumDepthOfBinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,13 +125,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="validParentheses.Answer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="validParentheses.Answer" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="validParentheses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.moveZeroes.Answer" />
-        <item itemvalue="Application.designLinkedList.Answer" />
-        <item itemvalue="Application.majorityElement.Answer" />
+        <item itemvalue="Application.maximumDepthOfBinaryTree.Answer" />
         <item itemvalue="Application.Answer" />
-        <item itemvalue="Application.Answer (2)" />
+        <item itemvalue="Application.validParentheses.Answer" />
+        <item itemvalue="Application.findAllNumbersDisappearedInAnArray.Answer" />
+        <item itemvalue="Application.moveZeroes.Answer" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +210,10 @@
       <workItem from="1676955155501" duration="3901000" />
       <workItem from="1676977830233" duration="2933000" />
       <workItem from="1677051359878" duration="6719000" />
-      <workItem from="1677119953781" duration="1556000" />
+      <workItem from="1677119953781" duration="4005000" />
+      <workItem from="1677389895069" duration="1955000" />
+      <workItem from="1677461657558" duration="826000" />
+      <workItem from="1678156496913" duration="6056000" />
     </task>
     <task id="LOCAL-00001" summary="最长回文子串">
       <created>1667490430491</created>
@@ -385,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676979940472</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="移除0">
+      <created>1677132049877</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1677132049877</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +439,8 @@
     <MESSAGE value="两数相加" />
     <MESSAGE value="一些修改" />
     <MESSAGE value="数组中出现次数大于n/2的数" />
-    <option name="LAST_COMMIT_MESSAGE" value="数组中出现次数大于n/2的数" />
+    <MESSAGE value="移除0" />
+    <option name="LAST_COMMIT_MESSAGE" value="移除0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -446,6 +459,25 @@
           <url>file://$PROJECT_DIR$/src/majorityElement/Answer.java</url>
           <line>21</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/findAllNumbersDisappearedInAnArray/Answer.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/maximumDepthOfBinaryTree/Answer.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/validParentheses/Answer.java</url>
+          <line>20</line>
+          <properties class="validParentheses.Solution" method="isValid">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
