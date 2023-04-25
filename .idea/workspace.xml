@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f3bda99-d74c-4e09-b4bd-8219107b44cc" name="Default Changelist" comment="移除0">
-      <change afterPath="$PROJECT_DIR$/src/binaryTreeInorderTraversal/Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/findAllNumbersDisappearedInAnArray/Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/maximumDepthOfBinaryTree/Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/validParentheses/Answer.java" afterDir="false" />
+    <list default="true" id="4f3bda99-d74c-4e09-b4bd-8219107b44cc" name="Default Changelist" comment="中序遍历以及求树的最大深度">
+      <change afterPath="$PROJECT_DIR$/src/Test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greatest_common_divisor_of_strings/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/powx_n/Answer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -47,6 +47,9 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -58,8 +61,14 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\12579\Desktop\LeetCode\src\ReverseInteger" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Test" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.maximumDepthOfBinaryTree.Answer">
+  <component name="RunManager" selected="Application.greatest_common_divisor_of_strings.Answer">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -86,12 +95,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="findAllNumbersDisappearedInAnArray.Answer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="findAllNumbersDisappearedInAnArray.Answer" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Test" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="findAllNumbersDisappearedInAnArray.*" />
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="greatest_common_divisor_of_strings.Answer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greatest_common_divisor_of_strings.Answer" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="greatest_common_divisor_of_strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,25 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="moveZeroes.Answer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="moveZeroes.Answer" />
+    <configuration name="powx_n.Answer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="powx_n.Answer" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="moveZeroes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="validParentheses.Answer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="validParentheses.Answer" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="validParentheses.*" />
+          <option name="PATTERN" value="powx_n.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.greatest_common_divisor_of_strings.Answer" />
+        <item itemvalue="Application.powx_n.Answer" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.maximumDepthOfBinaryTree.Answer" />
         <item itemvalue="Application.Answer" />
-        <item itemvalue="Application.validParentheses.Answer" />
-        <item itemvalue="Application.findAllNumbersDisappearedInAnArray.Answer" />
-        <item itemvalue="Application.moveZeroes.Answer" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +222,10 @@
       <workItem from="1677119953781" duration="4005000" />
       <workItem from="1677389895069" duration="1955000" />
       <workItem from="1677461657558" duration="826000" />
-      <workItem from="1678156496913" duration="6056000" />
+      <workItem from="1678156496913" duration="8892000" />
+      <workItem from="1678204351918" duration="23000" />
+      <workItem from="1679127588488" duration="1519000" />
+      <workItem from="1682388815437" duration="1015000" />
     </task>
     <task id="LOCAL-00001" summary="最长回文子串">
       <created>1667490430491</created>
@@ -397,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677132049877</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="中序遍历以及求树的最大深度">
+      <created>1678165990444</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1678165990444</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,7 +434,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="最长回文子串" />
     <MESSAGE value="Z排列与整数反转" />
     <MESSAGE value="回文判断（使用字符串的方式）" />
     <MESSAGE value="盛最多水的容器" />
@@ -440,7 +458,8 @@
     <MESSAGE value="一些修改" />
     <MESSAGE value="数组中出现次数大于n/2的数" />
     <MESSAGE value="移除0" />
-    <option name="LAST_COMMIT_MESSAGE" value="移除0" />
+    <MESSAGE value="中序遍历以及求树的最大深度" />
+    <option name="LAST_COMMIT_MESSAGE" value="中序遍历以及求树的最大深度" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -469,6 +488,11 @@
           <url>file://$PROJECT_DIR$/src/maximumDepthOfBinaryTree/Answer.java</url>
           <line>17</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/powx_n/Answer.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/validParentheses/Answer.java</url>
