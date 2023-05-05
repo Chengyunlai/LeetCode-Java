@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f3bda99-d74c-4e09-b4bd-8219107b44cc" name="Default Changelist" comment="身高排序">
-      <change afterPath="$PROJECT_DIR$/src/addTwoNumbers/Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/maximum_sum_of_two_non_overlapping_subarrays/Answer.java" afterDir="false" />
+    <list default="true" id="4f3bda99-d74c-4e09-b4bd-8219107b44cc" name="Default Changelist" comment="2.两数之和">
+      <change afterPath="$PROJECT_DIR$/src/longgestSubstringWithoutRepeatingCharacters/Answer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RemoveLinkedListElements203/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RemoveLinkedListElements203/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LongestSubstringWithoutRepeatingCharacters/Answer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestSubstringWithoutRepeatingCharacters/Answer2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
       <recent name="Test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.addTwoNumbers.Answer">
+  <component name="RunManager" selected="Application.Answer">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -86,11 +85,24 @@
       </method>
     </configuration>
     <configuration name="Answer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kids_with_the_greatest_number_of_candies.Answer" />
+      <option name="MAIN_CLASS_NAME" value="longgestSubstringWithoutRepeatingCharacters.Answer" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kids_with_the_greatest_number_of_candies.*" />
+          <option name="PATTERN" value="longgestSubstringWithoutRepeatingCharacters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Answer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestPalindromicSubstring.Answer2" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LongestPalindromicSubstring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,19 +136,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sort_the_people.Answer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort_the_people.Answer" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort_the_people.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="sort_the_people.Answer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sort_the_people.Answer" />
       <module name="LeetCode" />
@@ -152,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Answer" />
+        <item itemvalue="Application.Answer2" />
         <item itemvalue="Application.addTwoNumbers.Answer" />
         <item itemvalue="Application.maximum_sum_of_two_non_overlapping_subarrays.Answer" />
         <item itemvalue="Application.sort_the_people.Answer" />
-        <item itemvalue="Application.sort_the_people.Answer (1)" />
-        <item itemvalue="Application.Answer" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +232,8 @@
       <workItem from="1682516380604" duration="648000" />
       <workItem from="1682561543227" duration="1206000" />
       <workItem from="1682651129849" duration="599000" />
-      <workItem from="1683205859730" duration="336000" />
+      <workItem from="1683205859730" duration="363000" />
+      <workItem from="1683270164787" duration="2782000" />
     </task>
     <task id="LOCAL-00001" summary="最长回文子串">
       <created>1667490430491</created>
@@ -445,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682488245855</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="2.两数之和">
+      <created>1683206216746</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1683206216746</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,7 +470,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="IntegertoRoman" />
     <MESSAGE value="罗马数转整数" />
     <MESSAGE value="最长公共前缀" />
     <MESSAGE value="三个数之和为0" />
@@ -488,7 +494,8 @@
     <MESSAGE value="字符串的最大公因子：辗转相除法" />
     <MESSAGE value="拥有最多糖果的孩子" />
     <MESSAGE value="身高排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="身高排序" />
+    <MESSAGE value="2.两数之和" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.两数之和" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -527,6 +534,11 @@
           <url>file://$PROJECT_DIR$/src/kids_with_the_greatest_number_of_candies/Answer.java</url>
           <line>17</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/longgestSubstringWithoutRepeatingCharacters/Answer.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/validParentheses/Answer.java</url>
