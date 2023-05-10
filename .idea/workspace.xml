@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f3bda99-d74c-4e09-b4bd-8219107b44cc" name="Default Changelist" comment="2.两数之和">
-      <change afterPath="$PROJECT_DIR$/src/longgestSubstringWithoutRepeatingCharacters/Answer.java" afterDir="false" />
+    <list default="true" id="4f3bda99-d74c-4e09-b4bd-8219107b44cc" name="Default Changelist" comment="3.无重复字符的最长子串">
+      <change afterPath="$PROJECT_DIR$/src/permutations/Answer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LongestSubstringWithoutRepeatingCharacters/Answer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestSubstringWithoutRepeatingCharacters/Answer2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,19 +42,20 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "create.test.in.the.same.root": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -70,7 +70,7 @@
       <recent name="Test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Answer">
+  <component name="RunManager" selected="Application.permutations.Answer">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -136,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sort_the_people.Answer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort_the_people.Answer" />
+    <configuration name="permutations.Answer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="permutations.Answer" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort_the_people.*" />
+          <option name="PATTERN" value="permutations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.permutations.Answer" />
         <item itemvalue="Application.Answer" />
         <item itemvalue="Application.Answer2" />
         <item itemvalue="Application.addTwoNumbers.Answer" />
         <item itemvalue="Application.maximum_sum_of_two_non_overlapping_subarrays.Answer" />
-        <item itemvalue="Application.sort_the_people.Answer" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +233,9 @@
       <workItem from="1682561543227" duration="1206000" />
       <workItem from="1682651129849" duration="599000" />
       <workItem from="1683205859730" duration="363000" />
-      <workItem from="1683270164787" duration="2782000" />
+      <workItem from="1683270164787" duration="4207000" />
+      <workItem from="1683382417243" duration="67000" />
+      <workItem from="1683683615692" duration="1530000" />
     </task>
     <task id="LOCAL-00001" summary="最长回文子串">
       <created>1667490430491</created>
@@ -452,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683206216746</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="3.无重复字符的最长子串">
+      <created>1683274062801</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1683274062801</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +479,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="罗马数转整数" />
     <MESSAGE value="最长公共前缀" />
     <MESSAGE value="三个数之和为0" />
     <MESSAGE value="三数之和最接近目标值" />
@@ -495,7 +503,8 @@
     <MESSAGE value="拥有最多糖果的孩子" />
     <MESSAGE value="身高排序" />
     <MESSAGE value="2.两数之和" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.两数之和" />
+    <MESSAGE value="3.无重复字符的最长子串" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.无重复字符的最长子串" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -539,6 +548,11 @@
           <url>file://$PROJECT_DIR$/src/longgestSubstringWithoutRepeatingCharacters/Answer.java</url>
           <line>14</line>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/permutations/Answer.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/validParentheses/Answer.java</url>
